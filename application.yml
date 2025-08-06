@@ -1,5 +1,8 @@
-# Default Yml file
- eureka:
+spring:
+  application:
+    name: CONFIG-DEFAULT
+
+eureka:
   instance:
     prefer-ip-address: true
   client:
@@ -7,3 +10,4 @@
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
